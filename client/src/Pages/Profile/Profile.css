@@ -1,0 +1,77 @@
+.profile {
+  display: flex;
+  background-color: rgba(224, 222, 222, 0.226);
+}
+
+.profileWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.profileDeleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.profileForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* new design */
+
+.container {
+  z-index: 10;
+  width: 400px;
+  margin: 120px auto 120px;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.avatar-flip {
+  border-radius: 100px;
+  overflow: hidden;
+  z-index: 10;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  -webkit-box-shadow: 0 0 0 13px #ffffff;
+}
+
+.avatar-flip > label > img{
+    object-fit: cover;
+}
+
+.profileInputs {
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+.profileInputs > label {
+  float: left;
+}
+.profileInputs > input {
+  display: flex;
+  margin-left: 200px;
+}
+
+.profileInputs > input:focus{
+  outline: none;
+}
+
+.profileSubmit{
+    width: 150px;
+    padding: 5px;
+    align-items: center;
+    color: white;
+    border: 1px solid grey;
+    background-color: teal;
+    border-radius: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,88 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+}
+.singlePostTitle {
+  /* text-align: center; */
+  margin: 10px 0px 10px 0px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px 0px 10px 0px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  color: #666;
+}
+
+.singlePostTitleInput:focus {
+  outline: none ;
+}
+
+.SinglePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.SinglePostDescInput {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.SinglePostDescInput:focus {
+  outline: none ;
+}
+
+.singlePostEdit {
+  display: flex;
+  float: right;
+  font-size: 16px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostUpdate{
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 7px;
+  width: 100px;
+  border: 1px solid rgb(0, 91, 128);
+  /* border: none; */
+  background:rgb(2, 145, 202);
+  color: white;
+  align-self: flex-end;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: #b39656;
+  font-family: "Varela Round", sans-serif;
+}
+
+
