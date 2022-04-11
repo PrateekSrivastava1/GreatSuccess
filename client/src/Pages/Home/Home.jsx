@@ -5,6 +5,7 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 import "./Home.css";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
+import Card from "../../Components/Card/Card";
 
 export default function Home() {
 
@@ -34,8 +35,9 @@ export default function Home() {
     <>
       <div className="home">
         <Posts posts={posts} />
-        <Sidebar />
+        {/* <Sidebar /> */}
+        {/* <Card/> */}
       </div>
-    </>
+    </> 
   );
 }
